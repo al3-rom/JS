@@ -7,8 +7,9 @@ console.log(saludo);
 3.Escribir un programa que pregunte el nombre del usuario en 
 la consola y después de que el usuario lo introduzca muestre por pantalla la cadena ¡Hola \<nombre>!, donde \<nombre> es el nombre que el usuario haya introducido. */
 
-  //  var nombre = prompt("Pon tu nombre");
-  //  console.log("Hola " + nombre + "!");
+  /*  var nombre = prompt("Pon tu nombre");
+    console.log("Hola " + nombre + "!");
+    */
 
 /*
 4.Escribir un programa que pregunte el nombre del usuario en la consola y un número entero e 
@@ -71,10 +72,10 @@ número de años, y muestre por pantalla el capital obtenido en la inversión.
  */
 
   /* var cantidadInvertir = prompt("Pon una cantidad para invertir: ");
-var interesAnual = prompt("Interes anual(5% == 0.05): ");
+var interesAnual = prompt("Interes anual: ");
 var numeroYear = prompt("Numero de años: ");
 
-var capObtenido = (cantidadInvertir * interesAnual * numeroYear);
+var capObtenido = (cantidadInvertir * (interesAnual/100) * numeroYear);
 
 console.log("Capital obtenido en la inversion: ", + capObtenido);
  */
@@ -105,11 +106,11 @@ Después el programa debe mostrar el precio habitual de una barra de pan, el des
   */
 
 var barraPan = 3.49;
-var barraPanVieja = (barraPan - 0.6);
+var barraPanVieja = (barraPan * 0.6);
 
 
-var cantidadVendidad = prompt("Barras de pan viejo vendidas: ");
-var barrasViejasVendidas = barraPanVieja * cantidadVendidad;
+var cantidadVendida = prompt("Barras de pan viejo vendidas: ");
+var barrasViejasVendidas = barraPanVieja * cantidadVendida;
 
 console.log("El precio habital del pan es: " + barraPan + "$" + " , el descuento es de 60% por no ser fresca. Coste final total es: ", barrasViejasVendidas + "$");
 
