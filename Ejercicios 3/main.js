@@ -130,7 +130,7 @@ console.log(getAdultStudents(alumnosLista));
 */
 
 
-/* Ejercicio 6
+/* Ejercicio 5
 
 Dado el array de alumnos,
  crear una función llamada mayor que reciba el array como parámetro y que devuelva el alumno mayor de toda la lista de alumnos
@@ -164,12 +164,7 @@ function mayor(arr) {
     let alumnosTotal = arr.lenght;
     let alumnoMayor = [];
     for(i = 0; i < alumnosTotal; i++) {
-        let k = 0;
-        if (k < err[i].edad) {
-            alumnoMayor.push(err[i]);
-            k = err[i];
-        }
-        return alumnoMayor
+
     }   
     console.log(alumnoMayor);
 
